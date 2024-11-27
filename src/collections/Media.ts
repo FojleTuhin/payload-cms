@@ -7,7 +7,22 @@ export const Media: CollectionConfig = {
   },
   fields: [
     {
-      name: 'alt',
+      name: 'Serial no',
+      type:'number',
+      required:true
+    },
+    {
+      name: 'Title',
+      type: 'text',
+      required: true,
+    },
+    {
+      name: 'Sub Title',
+      type: 'text',
+      // required: true
+    },
+    {
+      name: 'Description',
       type: 'text',
       required: true,
     },
